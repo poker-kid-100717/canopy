@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from proration import calculate_proration
 
-app = Flask(__name__)
+app = Flask(__name__)  # Keep it as 'app'
 CORS(app)  # Enable CORS for frontend communication
 
 @app.route('/prorate', methods=['POST'])
