@@ -7,7 +7,7 @@ function App() {
   const [result, setResult] = useState(null);
 
   const handleFormSubmit = async (data) => {
-    const response = await fetch('canopy-six.vercel.app/prorate', {
+    const response = await fetch('https://canopy-rn9hrs08o-canopyweb.vercel.app/prorate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),
