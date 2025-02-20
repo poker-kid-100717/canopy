@@ -1,5 +1,4 @@
 {
-    "projectId": "canopy",
     "builds": [
       { "src": "backend/api/index.py", "use": "@vercel/python" },
       { "src": "frontend/package.json", "use": "@vercel/static-build" }
